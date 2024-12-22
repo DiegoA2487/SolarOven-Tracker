@@ -1,0 +1,26 @@
+SET(SOURCES ui_Screen1.c
+    ui_theme_manager.c
+    ui_themes.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_bg_main_png.c
+    ui_img_btn_bg_direction_png.c
+    ui_img_btn_bg2_direction_png.c
+    ui_img_btn_right_png.c
+    ui_img_btn_up_png.c
+    ui_img_btn_left_png.c
+    ui_img_btn_down_png.c
+    ui_img_indicator_bg_weather_png.c
+    ui_img_1784134941.c
+    ui_img_icon_radiacion_png.c
+    ui_img_icon_temperatura_png.c
+    ui_img_icon_humedad_png.c
+    ui_img_icon_objetivo_png.c
+    ui_img_indicator_bg_mode2_png.c
+    ui_img_99760210.c
+    ui_img_821389505.c
+    ui_img_1640394774.c
+    fonts/ui_font_Small_Font.c)
+
+add_library(ui ${SOURCES})
