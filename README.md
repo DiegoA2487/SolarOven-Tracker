@@ -11,7 +11,7 @@
 
 ## Description
 
-This project implements a solar tracker controller based on ESP32 with an interactive HMI interface on a TFT screen. It uses WebSockets for real-time communication between the client and the master, enabling critical data visualization and motor movement control on two axes.
+This project implements a solar oven and tracker controller based on ESP32 with an interactive HMI interface on a TFT screen. It uses WebSockets for real-time communication between the client (see branch -slave) and the master (see branch -master), enabling critical data visualization and motor movement control on two axes.
 
 The application is designed for solar tracking systems, integrating functionalities such as:
 
@@ -20,6 +20,15 @@ The application is designed for solar tracking systems, integrating functionalit
 - Optimized communication using WebSockets to avoid constant polling requests.
 
 ---
+## Preview
+
+![Interface Preview](interface_design.png)
+
+_The image above shows a basic design of the HMI interface (Designed in SquireLine Studio)_
+
+![Prototype Preview](prototype_design.jpg)
+
+_The image above shows the prototype used for the develop of this project (Designed in Universidad Autónoma de Querétaro)_
 
 ## Features
 
