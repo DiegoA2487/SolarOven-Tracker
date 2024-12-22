@@ -26,7 +26,7 @@ The application is designed for solar tracking systems, integrating functionalit
 
 _The image above shows a basic design of the HMI interface (Designed in SquireLine Studio)_
 
-![Prototype Preview](prototype_preview.jpg)
+![Prototype Preview](prototype_preview2.jpg)
 
 _The image above shows the prototype used for the develop of this project (Designed in Universidad Autónoma de Querétaro)_
 
